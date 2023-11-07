@@ -72,7 +72,7 @@ public class RegistrationFormTest {
         $("tbody tr:nth-child(5) td:nth-child(2)").shouldHave(text("20 September,1994"));
         $("tbody tr:nth-child(6) td:nth-child(2)").shouldHave(text("Hindi, Computer Science, Economics"));
         $("tbody tr:nth-child(7) td:nth-child(2)").shouldHave(text("Reading, Music"));
-        $("tbody tr:nth-child(8) td:nth-child(2)").shouldHave(text("screen.jpg"));
+        $("tbody tr:nth-child(8) td:nth-child(2)").shouldHave(text("branch.jpg"));
         $("tbody tr:nth-child(9) td:nth-child(2)").shouldHave(text("str. Jenkins 15, 7, 98-452"));
         $("tbody tr:nth-child(10) td:nth-child(2)").shouldHave(text("Haryana Panipat"));
     }
